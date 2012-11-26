@@ -22,21 +22,32 @@ body{
 	padding:10px;
 	color: white;
     position: absolute;
-    right: 20px;
     top:18px;
     color: white;
    font: normal 11px Arial, Tahoma, Calibri, Verdana, Geneva, sans-serif;
-   text-align: right;
+   text-align: left;
    background: none;
-   margin-right:189px;
+   margin-right:147px;
+   text-decoration: none;
 }
-.block a {
-	color:white;
+
+.block ul li {
+	display:inline;
+	overflow: hidden;
+	width:1.5em;
+   }
+.block ul li a{
+	text-decoration: none;
+	padding: 6px 10px 0 10px;
+    background: #333;
+    color:white;
 }
-ul.block li{
-	display: inline;
+#register{
+	width: 182px;
+	margin-top: 10px;
+	text-align: center;
 }
-	
+
 
 .input{
 	width: 100px;
@@ -54,7 +65,6 @@ color: white;
 .navbar {
 	position:relative;
 	height: 55px;
-	
 	margin:10px 0px 0px 0px;
 	color:rgb(255, 255, 255);
 	font:   11px Arial, Calibri, Verdana, Geneva, sans-serif;

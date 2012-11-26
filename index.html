@@ -7,7 +7,8 @@
     <meta name="description" content="Knights of Dice">
     <meta name="author" content="MAX Software Solutions">
     <!-- Le styles -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style1.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.7.3/build/cssreset/cssreset-min.css">
        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -15,62 +16,33 @@
     <!-- Fav and touch icons -->
   </head>
   <body>
-    <div class="container"><!--start of main container-->
-      <header>
-      <div class="banner"><!--start of banner-->
-        <div id="header" class="floatcontainer doc_header">
-       <div id="toplinks" class="toplinks">
-    
-      <ul class="nouser">
-       <li><a href="register.php" rel="nofollow">Register</a></li>
-       <!--<li><a rel="help" href="faq.php">Help</a></li>-->
-    <li><a href="login.php?do=lostpw">Forgotten Your Password?</a></li>
-        <li>
-      <script type="text/javascript" src="clientscript/vbulletin_md5.js?v=420"></script>
-      <form id="navbar_loginform" action="login.php?do=login" method="post" onsubmit="md5hash(vb_login_password, vb_login_md5password, vb_login_md5password_utf, 0)">
-        <fieldset id="logindetails" class="logindetails">
-          <div>
-            <div>
-          <input type="text" class="textbox default-value" name="vb_login_username" id="navbar_username" size="10" accesskey="u" tabindex="101" value="User Name" />
-          <input type="password" class="textbox" tabindex="102" name="vb_login_password" id="navbar_password" size="10" />
-          <input type="text" class="textbox default-value" tabindex="102" name="vb_login_password_hint" id="navbar_password_hint" size="10" value="Password" style="display:none;" />
-          <input type="submit" class="loginbutton" tabindex="104" value="Log in" title="Enter your username and password in the boxes provided to login, or click the 'register' button to create a profile for yourself." accesskey="s" />
-            </div>
+    <header>
+      <div class="banner">
+      </div>
+      <div class="top-login">
+        <form action="#" method="post" name="login-form">
+          <input type="text" class="input"  placeholder="username" />
+          <input type="password" class="input" placeholder="passsword"/>
+          <input type="submit" class="loginbutton" value="Login"/>
+          <td style="padding: 0px;">
+           <input id="check1" type="checkbox" name="check1" /></td>
+           <td><span class="banner_text">Remember Me</span></td>
+          <div class="block">
+            <ul id="register">
+              <li><a href="#">Register </a></li>
+              <li><a href="#">Forgotten Password? </a></li>
+           </ul>
           </div>
-        </fieldset>
-        <div id="remember" class="remember">
-          <label for="cb_cookieuser_navbar"><input type="checkbox" name="cookieuser" value="1" id="cb_cookieuser_navbar" class="cb_cookieuser_navbar" accesskey="c" tabindex="103" /> Remember Me?</label>
-        </div>
-
-        <input type="hidden" name="s" value="" />
-        <input type="hidden" name="securitytoken" value="guest" />
-        <input type="hidden" name="do" value="login" />
-        <input type="hidden" name="vb_login_md5password" />
-        <input type="hidden" name="vb_login_md5password_utf" />
-      </form>
-    </div>
-  </div>
-       </div>
-        <div class="navbar">
+        </form>
+      </div>
+      <div class="navbar">
         <ul class="navtabs">
+        <li class="selected">
+        <a href="#">Home</a></li>
         <li>
-        <a href="#"> Home </a></li>
-        <li>
-        <a href="#"> About us </a></li>
-      </ul>
-     </div><!--end of nav bar-->
-        
-
-      </header>
-
-    </div> <!-- /container -->
-
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    
-      
-
+        <a href="#">About US</a></li>
+       </ul> 
+      </div><!--end of navbar-->
+    </header>
   </body>
-</html>
+  </html>
