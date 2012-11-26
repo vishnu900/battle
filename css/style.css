@@ -1,0 +1,91 @@
+@charset="utf8"
+body{
+	background-color: #EEf0f1;
+}
+.banner{
+	background: url(../img/kod_website_header.png) no-repeat;
+	height:202px;
+	width: auto;
+	text-align: right;
+}
+.toplinks .logindetails {
+padding: 0 10px;
+text-align: center;
+background: #333;
+-moz-border-radius-bottomleft: 1px;
+-webkit-border-bottom-left-radius: 1px;
+border-bottom-left-radius: 1px;
+-moz-border-radius-bottomright: 1px;
+-webkit-border-bottom-right-radius: 1px;
+border-bottom-right-radius: 1px;
+height: 26px;
+}
+
+.navbar{
+position: relative;
+height: 55px;
+margin: 10px 0px 0px -25px;
+color: white;
+font: 11px Arial, Calibri, Verdana, Geneva, sans-serif;
+border: 0px solid white;
+}
+.navtabs {
+background: #333  repeat-x;
+padding: 0px 0px 0px 20px;
+height: 26px;
+
+}
+.navtabs li {
+float: left;
+border-right: 1px solid #CCC;
+margin-left: 20px;
+list-style: none;
+}
+
+.toplinks {
+position: absolute;
+right: 20px;
+top: 0;
+color: white;
+font: normal normal normal 11px Arial, Tahoma, Calibri, Verdana, Geneva, sans-serif;
+text-align: right;
+background: none;
+}
+ul.nouser {
+display: block;
+float: right;
+clear: left;
+list-style: none;
+}
+.navtabs li a.navtab {
+border-top: 1px solid #999;
+border-left: 1px solid #999;
+display: block;
+min-width: 60px;
+width: auto !important;
+width: 60px;
+text-align: center;
+color: white;
+font: bold 12px Arial, Calibri, Verdana, Geneva, sans-serif;
+text-decoration: none;
+line-height: 26px;
+}
+.login_form {
+float: right;
+margin-top: 5px;
+height: auto /*102px*/;
+max-height: 98px;
+}
+.banner-text{
+font-size: 10px;
+color: white;
+}
+.floatcontainer, .formcontrols .blockrow, dl.stats {
+display: block;}
+.doc_header {
+border: ;
+color: #A8A8A8;
+font: normal normal normal 11px Arial, Tahoma, Calibri, Verdana, Geneva, sans-serif;
+position: relative;
+min-height: 35px;
+}

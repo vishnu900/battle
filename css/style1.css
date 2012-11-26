@@ -1,0 +1,169 @@
+@charset="utf8"
+body{
+	background-color: #EEf0f1;
+	width: 960px;
+	margin: auto;
+	height: auto;
+  }
+.banner{
+	background: url(../img/kod_website_header.png) no-repeat;
+	height:202px;
+	width: auto;
+	text-align: right;
+}
+.top-login{
+	position: relative;
+	top:-201px;
+	right:89px;
+	float:right;
+	display: inline;
+}
+.block{
+	padding:10px;
+	color: white;
+    position: absolute;
+    right: 20px;
+    top:18px;
+    color: white;
+   font: normal 11px Arial, Tahoma, Calibri, Verdana, Geneva, sans-serif;
+   text-align: right;
+   background: none;
+   margin-right:189px;
+}
+.block a {
+	color:white;
+}
+ul.block li{
+	display: inline;
+}
+	
+
+.input{
+	width: 100px;
+}
+.loginbutton{
+	font-size: 11px;
+	padding: 0 5px;
+	border: solid 1px #415D8D;
+}
+.banner_text{
+font-size: 10px;
+color: white;
+}
+
+.navbar {
+	position:relative;
+	height: 55px;
+	
+	margin:10px 0px 0px 0px;
+	color:rgb(255, 255, 255);
+	font:   11px Arial, Calibri, Verdana, Geneva, sans-serif;
+	border:0px solid rgb(255, 255, 255);
+	-moz-border-radius-bottomleft:1px;
+	-moz-border-radius-bottomright:1px;
+	-webkit-border-bottom-left-radius:1px;
+	-webkit-border-bottom-right-radius:1px;
+	border-bottom-left-radius:1px;
+	border-bottom-right-radius:1px;
+}
+.navbar a { color:rgb(255, 255, 255); }
+.navbar a:hover { color:rgb(51, 51, 51); }
+
+.navtabs {
+	background:rgb(51, 51, 51) url(images/buttons/newbtn_middle.png) repeat-x  ;
+	padding: 0px 0px 0px 20px;
+	height: 26px;
+}
+
+.navtabs li:first-child {
+	border-left: 1px solid rgb(204, 204, 204);
+}
+
+.navtabs ul {
+/*	height: 26px; */
+	position:absolute;
+	top:26px;
+	left:0px;
+	width:100%;
+	border-top:1px solid rgb(204, 204, 204);
+	-moz-border-radius-bottomleft:1px;
+	-moz-border-radius-bottomright:1px;
+	-webkit-border-bottom-left-radius:1px;
+	-webkit-border-bottom-right-radius:1px;
+	border-bottom-left-radius:1px;
+	border-bottom-right-radius:1px;
+	margin-right:-80px;
+/* This is to fix RTL menu issue under Opera */
+	direction:ltr;
+}
+
+.navtabs li {
+	float:left;
+	border-right: 1px solid rgb(204, 204, 204);
+}
+
+.navtabs ul li:first-child {
+	margin-left: 20px;
+	border-left: 0;
+}
+
+#navtabs .popupmenu ul li:first-child {
+	margin-left: 0px;
+}
+
+.navtabs ul li {
+	border-right: 0;
+	position: relative;
+}
+
+.navtabs li a {
+	height:26px;
+	line-height:26px;
+	padding:0 10px;
+}
+
+.navtabs li a.navtab {
+	border-top: 1px solid rgb(153, 153, 153);
+	border-left: 1px solid rgb(153, 153, 153);
+	display:block;
+	background:rgb(51, 51, 51) url(images/buttons/newbtn_middle.png) repeat-x  ;
+	min-width:60px;
+	width:auto !important;
+	width:60px;
+	text-align:center;
+	color: #ffffff;
+	font:  bold 12px Arial, Calibri, Verdana, Geneva, sans-serif;
+	text-decoration:none;
+	line-height:26px;
+}
+
+.navtabs li a.navtab:hover {
+	background:rgb(51, 51, 51) url(images/gradients/selected-tab-gradient-with-top-alpha.png) repeat-x   0 -4px;
+	color:#000000;
+}
+
+.navtabs li.selected {
+	height:26px;
+	color:#000000;
+}
+
+.navtabs li.selected a.navtab {
+	color:#000000;
+	background:rgb(51, 51, 51) url(images/gradients/selected-tab-gradient-with-top-alpha.png) repeat-x  ;
+	position:relative;
+	top:-4px;
+	padding-top:4px;
+	z-index:10;
+}
+
+.navtabs li.selected li a,
+.navbar_advanced_search li a {
+	text-decoration:none;
+	font:   11px Arial, Calibri, Verdana, Geneva, sans-serif;
+	line-height: 28px;
+}
+
+.navtabs li.selected li a {
+	color:rgb(255, 255, 255);
+	padding:2px 5px;
+}
